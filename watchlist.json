@@ -20,10 +20,28 @@
       "note": "Model Y 订购页：同上"
     },
     {
-      "slug": "cn-support-autopilot",
-      "url": "https://www.tesla.cn/support/autopilot",
+      "slug": "cn-autopilot",
+      "url": "https://www.tesla.cn/autopilot",
       "lang": "zh-CN,zh;q=0.9",
-      "note": "中国官网 Autopilot 支持页：功能清单与措辞变化（城市道路能力、监督要求、免责声明）"
+      "note": "中国官网 Autopilot 落地页（/support/autopilot 在 tesla.cn 不存在，实测 404；英文版为 /en/autopilot）"
+    },
+    {
+      "slug": "cn-support-autopilot-notes",
+      "url": "https://www.tesla.cn/support/autopilot-notes",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "「关于 Autopilot 自动辅助驾驶的使用说明和警示」：免责声明与功能边界措辞变化"
+    },
+    {
+      "slug": "cn-support-eap-trial",
+      "url": "https://www.tesla.cn/support/enhanced-autopilot-trial",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "增强版自动辅助驾驶「月包/季包」页：中国已有的按月付费链路（App 升级标签购买）——FSD 订阅上线前最可能先在此类页面出现痕迹"
+    },
+    {
+      "slug": "cn-campaign-promo",
+      "url": "https://www.tesla.cn/campaign/sales-promo-overview",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "现行活动规则汇总页：首页 id=FSD 锚点区块当前指向这里，FSD 限时权益/转移活动通常在此公示"
     },
     {
       "slug": "cn-support-fsd",
