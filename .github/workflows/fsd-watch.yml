@@ -20,16 +20,20 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          pip install requests playwright
+          playwright install --with-deps chromium
 
       - name: Snapshot + analyze + diff
-        run: python fsd_watch.py run --delay 6
+        run: python fsd_watch.py run --delay 6 --playwright
 
       - name: Commit snapshots and alerts
         run: |
           git config user.name "fsd-watch-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A snapshots ALERTS.md || true
+          git pull --rebase || true
+          git add -A snapshots
+          git add ALERTS.md 2>/dev/null || true
           git diff --cached --quiet || git commit -m "chore: FSD watch snapshot $(date -u +%FT%H%MZ)"
           git push
 
