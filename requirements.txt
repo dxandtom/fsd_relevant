@@ -1,0 +1,5 @@
+# 必需
+requests>=2.31
+
+# 可选：403/反爬兜底浏览器引擎（安装后执行 playwright install chromium）
+# playwright>=1.44

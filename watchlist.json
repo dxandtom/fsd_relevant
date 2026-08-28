@@ -1,0 +1,98 @@
+{
+  "_comment": "fsd_watch.py 的监控目标。lang 决定 Accept-Language 请求头；note 说明该页面的监控意义。probe=true 表示该 URL 当前预期 404，若变为 200 即是强信号。",
+  "targets": [
+    {
+      "slug": "cn-home",
+      "url": "https://www.tesla.cn/",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "中国官网首页：FSD/驾驶辅助相关横幅、发布会或全量推送公告通常首发于此"
+    },
+    {
+      "slug": "cn-model3-design",
+      "url": "https://www.tesla.cn/model3/design",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "Model 3 订购页：FSD 选装包的中文命名、价格（现 ¥64,000 买断）、以及嵌入 JSON 中的选装代码；出现『订阅/包月』字样 = 大陆转订阅制的信号"
+    },
+    {
+      "slug": "cn-modely-design",
+      "url": "https://www.tesla.cn/modely/design",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "Model Y 订购页：同上"
+    },
+    {
+      "slug": "cn-support-autopilot",
+      "url": "https://www.tesla.cn/support/autopilot",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "中国官网 Autopilot 支持页：功能清单与措辞变化（城市道路能力、监督要求、免责声明）"
+    },
+    {
+      "slug": "cn-support-fsd",
+      "url": "https://www.tesla.cn/support/fsd",
+      "lang": "zh-CN,zh;q=0.9",
+      "probe": true,
+      "note": "探针：美国官网已有 /support/fsd，中文版页面上线（404→200）= 全量落地临近"
+    },
+    {
+      "slug": "cn-support-fsd-subscriptions",
+      "url": "https://www.tesla.cn/support/full-self-driving-subscriptions",
+      "lang": "zh-CN,zh;q=0.9",
+      "probe": true,
+      "note": "探针：大陆 FSD 订阅支持页上线（404→200）= 订阅制落地的决定性信号"
+    },
+    {
+      "slug": "cn-fsd-landing",
+      "url": "https://www.tesla.cn/fsd",
+      "lang": "zh-CN,zh;q=0.9",
+      "probe": true,
+      "note": "探针：tesla.com/fsd 落地页的中文版"
+    },
+    {
+      "slug": "cn-manual-model3-fsd",
+      "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn_us/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "Model 3 中文车主手册『FSD 智能辅助驾驶』章节：2026.14 版起包含完整 FSD V14 功能说明，章节内容与版本号变化反映软件推送节奏"
+    },
+    {
+      "slug": "cn-manual-modely-fsd",
+      "url": "https://www.tesla.cn/ownersmanual/modely/zh_cn_us/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "Model Y 中文车主手册 FSD 章节：同上"
+    },
+    {
+      "slug": "us-support-autopilot",
+      "url": "https://www.tesla.com/support/autopilot",
+      "lang": "en-US,en;q=0.9",
+      "note": "美国官网 Autopilot 支持页：对照组"
+    },
+    {
+      "slug": "us-support-fsd-subscriptions",
+      "url": "https://www.tesla.com/support/full-self-driving-subscriptions",
+      "lang": "en-US,en;q=0.9",
+      "note": "关键页：『currently available in ...』订阅可用国家清单；2026-08-22 更新为 12 国且不含中国曾引发误读；China 加入此清单 = 大陆订阅上线"
+    },
+    {
+      "slug": "us-fsd-landing",
+      "url": "https://www.tesla.com/fsd",
+      "lang": "en-US,en;q=0.9",
+      "note": "FSD 全球落地页：可用地区措辞（截至 2026-08 该页系口径仍列出 China 为可用市场）"
+    },
+    {
+      "slug": "us-model3-design",
+      "url": "https://www.tesla.com/model3/design",
+      "lang": "en-US,en;q=0.9",
+      "note": "美国订购页：对照组（订阅制、$APF2 等选装代码基线）"
+    },
+    {
+      "slug": "hk-support-fsd-subscriptions",
+      "url": "https://www.tesla.com/zh_hk/support/full-self-driving-subscriptions",
+      "lang": "zh-HK,zh;q=0.9",
+      "note": "香港订阅支持页：港澳台 2026-06-30 起已废除买断、转订阅，是大陆政策的先行指标"
+    },
+    {
+      "slug": "us-ai",
+      "url": "https://www.tesla.com/AI",
+      "lang": "en-US,en;q=0.9",
+      "note": "Tesla AI 页：FSD/Robotaxi 技术与里程碑叙事变化"
+    }
+  ]
+}

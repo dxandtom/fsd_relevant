@@ -1,0 +1,41 @@
+name: FSD Watch
+
+on:
+  schedule:
+    # 每天 01:30 UTC（北京时间 09:30）跑一轮
+    - cron: "30 1 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Snapshot + analyze + diff
+        run: python fsd_watch.py run --delay 6
+
+      - name: Commit snapshots and alerts
+        run: |
+          git config user.name "fsd-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A snapshots ALERTS.md || true
+          git diff --cached --quiet || git commit -m "chore: FSD watch snapshot $(date -u +%FT%H%MZ)"
+          git push
+
+      - name: Publish alerts to job summary
+        if: always()
+        run: |
+          if [ -f ALERTS.md ]; then
+            cat ALERTS.md >> "$GITHUB_STEP_SUMMARY"
+          fi
