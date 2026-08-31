@@ -295,11 +295,16 @@ def fetch_requests(url: str, lang: str):
     for attempt in range(3):
         try:
             resp = requests.get(url, headers=headers, timeout=45)
-            return resp.status_code, resp.text, None
+            hdrs = {
+                k: resp.headers.get(k)
+                for k in ("Last-Modified", "ETag", "X-Cache", "Age")
+                if resp.headers.get(k)
+            }
+            return resp.status_code, resp.text, None, hdrs
         except Exception as e:  # 网络错误重试
             last_err = str(e)
             time.sleep(2 * (attempt + 1))
-    return None, None, last_err
+    return None, None, last_err, {}
 
 
 def fetch_playwright(url: str, lang: str):
@@ -344,7 +349,7 @@ def cmd_snapshot(args):
             print(f"[skip ] {slug}: robots.txt 不允许抓取 {url}")
             meta[slug] = {"url": url, "status": None, "error": "robots_disallow"}
             continue
-        status, body, err = fetch_requests(url, lang)
+        status, body, err, hdrs = fetch_requests(url, lang)
         engine = "requests"
         if args.playwright and (status in (403, 429) or status is None):
             s2, b2, e2 = fetch_playwright(url, lang)
@@ -358,6 +363,8 @@ def cmd_snapshot(args):
             "fetched_at": datetime.now(timezone.utc).isoformat(),
             "error": err,
         }
+        if hdrs:
+            entry["headers"] = hdrs
         if body is not None:
             data = body.encode("utf-8", errors="replace")
             entry["bytes"] = len(data)

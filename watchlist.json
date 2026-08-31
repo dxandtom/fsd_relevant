@@ -86,7 +86,13 @@
       "slug": "cn-manual-model3-home",
       "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn/GUID-E5FF5E84-6AAC-43E6-B7ED-EC1E9AEB17B7.html",
       "lang": "zh-CN,zh;q=0.9",
-      "note": "Model 3 中文车主手册首页：捕捉手册大版本跳变（如 2026.14 → 2026.20）与新章节出现"
+      "note": "Model 3 中文车主手册「辅助驾驶 限制和警告」页：免责/限制措辞变化"
+    },
+    {
+      "slug": "cn-manual-sitemap",
+      "url": "https://www.tesla.cn/ownersmanual/sitemap.xml",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "手册站 sitemap（若存在则含每页 lastmod，最直接的手册更新时间证据）"
     },
     {
       "slug": "us-support-autopilot",
