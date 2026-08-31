@@ -77,6 +77,18 @@
       "note": "Model Y 中文车主手册 FSD 章节：同上"
     },
     {
+      "slug": "cn-manual-2020-modely-fsd",
+      "url": "https://www.tesla.cn/ownersmanual/2020_2024_modely/zh_cn_us/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "旧款 Model Y（2020-2024，多为 HW3 硬件）手册对应章节，现标题「完全自动驾驶能力（监控版本）」——若更新为完整 FSD 章节 = 旧硬件适配推进的信号"
+    },
+    {
+      "slug": "cn-manual-model3-home",
+      "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn/GUID-E5FF5E84-6AAC-43E6-B7ED-EC1E9AEB17B7.html",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "Model 3 中文车主手册首页：捕捉手册大版本跳变（如 2026.14 → 2026.20）与新章节出现"
+    },
+    {
       "slug": "us-support-autopilot",
       "url": "https://www.tesla.com/support/autopilot",
       "lang": "en-US,en;q=0.9",
