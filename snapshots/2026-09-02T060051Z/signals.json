@@ -1,0 +1,879 @@
+{
+  "cn-home": {
+    "url": "https://www.tesla.cn/",
+    "status": 200,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {
+        "China": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "\\u0003\",\"suppressDeprecationErrors\":true,\"tesla_forms\":{\"is_china_domain\":true},\"tesla_locale_existing\":{\"locale\":[\"en_au\",\"d",
+            "n_ca\",\"en\",\"nl_nl\",\"zh_tw\",\"en_us\"]},\"tesla_mega_menu\":{\"is_china_domain\":true,\"is_d8\":true,\"is_menu_visible\":true,\"mega_menu"
+          ]
+        }
+      },
+      "option_codes": [],
+      "fsd_identifiers": [
+        "FSD",
+        "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
+      ],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "cn-model3-design": {
+    "url": "https://www.tesla.cn/model3/design",
+    "status": 200,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {
+        "完全自动驾驶": {
+          "count": 12,
+          "source": "code",
+          "contexts": [
+            "eselectLabel\":\"已选配置\",\"disclaimer\":\"目前可用的功能需要驾驶员主动进行监管，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车",
+            "完成绝大多数的驾驶任务。\"},\"disclaimer\":\"<br />目前可用的功能需要驾驶员主动进行监控，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车",
+            "级。\",\"disclaimer_ineligible\":\"<br />目前可用的功能需要驾驶员主动进行监控，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车"
+          ]
+        },
+        "全自动驾驶": {
+          "count": 12,
+          "source": "code",
+          "contexts": [
+            "selectLabel\":\"已选配置\",\"disclaimer\":\"目前可用的功能需要驾驶员主动进行监管，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车",
+            "成绝大多数的驾驶任务。\"},\"disclaimer\":\"<br />目前可用的功能需要驾驶员主动进行监控，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车",
+            "。\",\"disclaimer_ineligible\":\"<br />目前可用的功能需要驾驶员主动进行监控，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车"
+          ]
+        },
+        "智能辅助驾驶": {
+          "count": 20,
+          "source": "code",
+          "contexts": [
+            "驾驶\",\"extra_copy_formatted\":{\"title\":\"智能辅助导航驾驶\",\"panelName\":\"智能辅助驾驶\",\"description\":\"智能驶入驶出高速公路匝道，包括以下功能：智能辅助变道，能够使车辆完全停止和重新起步的主",
+            ":\"车道变换\",\"extra_copy_formatted\":{\"title\":\"车道变换\",\"panelName\":\"智能辅助驾驶\",\"description\":\"在高速公路上行驶时，车辆会根据情况选择更优的车道，并入并出，以超过前方速度缓慢的车辆。",
+            ":\"智能泊车\",\"extra_copy_formatted\":{\"title\":\"智能泊车\",\"panelName\":\"智能辅助驾驶\",\"description\":\"通过中央触控屏一键智能泊车，包括平行泊车和垂直泊车。车辆会持续探测周围环境，并在发现合"
+          ]
+        },
+        "订阅": {
+          "count": 8,
+          "source": "code",
+          "contexts": [
+            "description3\":\"2.「高级车载娱乐服务包」的免费试用期限为 30 天，自新车交付日起计算。试用结束后可付费订阅。\",\"purchase-description3\":\"2.「高级车载娱乐服务年包」可在交付前选购，与免费试用期自动合并",
+            "n3\":\"2.「高级车载娱乐服务年包」可在交付前选购，与免费试用期自动合并。年包及免费试用期结束后不自动续费，可另行付费订阅高级车载娱乐服务。\",\"inventory-description3\":\"2.「高级车载娱乐服务包」的免费试用期限为 3",
+            "description3\":\"2.「高级车载娱乐服务包」的免费试用期限为 30 天，自新车交付日起计算。试用结束后可付费订阅。\"},\"extra_content_formatted\":{\"components\":[{\"type\":\"Title\""
+          ]
+        },
+        "即将推出": {
+          "count": 6,
+          "source": "code",
+          "contexts": [
+            ":[{\"items\":[\"标配电池 - 220 英里（EPA 预估值）（2018 年年末）\"]}]},\"title\":\"即将推出\",\"features\":{\"title\":\"即将推出\",\"notifyMe\":{\"content\":\"到货通知我\",\"",
+            "EPA 预估值）（2018 年年末）\"]}]},\"title\":\"即将推出\",\"features\":{\"title\":\"即将推出\",\"notifyMe\":{\"content\":\"到货通知我\",\"behavior\":[{\"type\":\"CONTAIN",
+            "ON\",\"content\":{\"type\":\"NOTIFY_ME\"}}]}},\"coming_soon_title\":\"即将推出\",\"base_35\":\"基础版 35,000 美元\",\"fall_17\":\"2018 年末\",\"standard_ra"
+          ]
+        },
+        "稍后推出": {
+          "count": 8,
+          "source": "code",
+          "contexts": [
+            "\"feature_list\":{\"default\":\"<br />包括「基础辅助驾驶」和「增强辅助驾驶」套件的全部功能。稍后推出特斯拉辅助驾驶功能。未来您的车辆将能够在驾驶员极少干预的情况下完成绝大多数的驾驶任务。\",\"default_inelig",
+            "任务。\",\"default_ineligible\":\"<br />包括「基础辅助驾驶」和「增强辅助驾驶」套件的全部功能。稍后推出特斯拉辅助驾驶功能。未来您的车辆将能够在驾驶员极少干预的情况下完成绝大多数的驾驶任务。\",\"default_eligib",
+            "斯拉辅助驾驶\",\"full_purchase_caption\":\"包括「基础辅助驾驶」和「增强辅助驾驶」套件的全部功能。稍后推出特斯拉辅助驾驶功能。未来您的车辆将能够在驾驶员极少干预的情况下完成绝大多数的驾驶任务。\",\"full_purchase_"
+          ]
+        },
+        "FSD": {
+          "count": 82,
+          "source": "code",
+          "contexts": [
+            "tLabel\":\"添加此功能\",\"deselectLabel\":\"已选配置\",\"description\":\" \",\"fsd_features\":{\"content\":\"了解更多\",\"behavior\":[{\"type\":\"CONTAINER\"",
+            "NER\",\"content\":{\"tag\":\"button\",\"props\":{\"data-should-open\":\"FSD_FEATURES\"},\"classNames\":[\"tds-btn tds-btn--tertiary\",\"tds-b",
+            "es\":[\"tds-btn tds-btn--tertiary\",\"tds-btn--small\"]}}]},\"add_fsd_package\":{\"content\":\"添加此功能\",\"behavior\":[{\"type\":\"ACTION\",\"c"
+          ]
+        },
+        "Supervised": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "y_loaded\":{\"asset\":[{\"icon\":\"Charge\",\"type\":\"icon\"}]}},\"fsd_supervised\":{\"basic\":{\"asset\":[{\"url\":\"COMMON/DailyDrive-m3.mp4\",\"type",
+            "y_loaded\":{\"asset\":[{\"icon\":\"Charge\",\"type\":\"icon\"}]}},\"fsd_supervised\":{\"basic\":{\"asset\":[{\"url\":\"COMMON/DailyDrive-m3.mp4\",\"type"
+          ]
+        },
+        "subscription": {
+          "count": 7,
+          "source": "code",
+          "contexts": [
+            "\":2892,\"copy_id\":22410,\"language\":\"zh\",\"pricing_id\":144448,\"subscription_options\":{\"$APPB\":{\"code\":\"$APPB\",\"name\":\"Enhanced Autopilo",
+            "ptions\":[\"$APBS\",\"$SC04\"],\"isSaveDesignEnabled\":false,\"isFsdSubscriptionStaticUrlEnabled\":false,\"isDynamicRoundingEnabled\":false,\"is",
+            "_AGREEMENT_CONSENT\"],\"showLegalConsentAfterPayX\":[],\"showFsdSubscriptionConsent\":false,\"showPrpLink\":false,\"showVAT\":true,\"showMyVAT"
+          ]
+        },
+        "China": {
+          "count": 32,
+          "source": "code",
+          "contexts": [
+            "\"name\":\"Model 3 Standard Range Plus Rear-Wheel Drive (Tesla China 2022-01)\",\"range\":556,\"topspeed\":225,\"acceleration\":6.1,\"co",
+            "ata\":{\"name\":\"Performance Long Range All-Wheel Drive (Tesla China 2021-11)\",\"range\":675,\"postfix\":\"*\",\"topspeed\":261,\"acceler",
+            ":\"\",\"name\":\"\",\"rawData\":{\"name\":\"Standard Range Plus (Tesla China 2020-01)\",\"range\":445,\"topspeed\":225,\"acceleration\":5.6,\"co"
+          ]
+        }
+      },
+      "option_codes": [
+        "$APBS",
+        "$APF2",
+        "$APPB"
+      ],
+      "fsd_identifiers": [
+        "App.fsdEligible",
+        "CustomGroups.FSD_AUTOPARK_CARD.name",
+        "CustomGroups.FSD_LANE_CHANGE_CARD.name",
+        "CustomGroups.FSD_NAVIGATE_CARD.name",
+        "CustomGroups.FSD_SUMMON_CARD.video_title",
+        "FSD_AUTOPARK_CARD",
+        "FSD_COMPUTER_CARD",
+        "FSD_FEATURES",
+        "FSD_GALLERY",
+        "FSD_LANE_CHANGE_CARD",
+        "FSD_NAVIGATE_CARD",
+        "FSD_SUMMON_CARD",
+        "FSD_TRAFFIC_LIGHT_CARD",
+        "MODEL3/UI/FSDComputer.png",
+        "add_fsd_package",
+        "fsdEligible",
+        "fsd_features",
+        "fsd_supervised",
+        "isAllowSunsetFSDinEditDesign",
+        "isFsdSubscriptionStaticUrlEnabled",
+        "remove_fsd_package",
+        "showFsdSubscriptionConsent"
+      ],
+      "availability_lists": [],
+      "mentions_china": true,
+      "price_mentions": []
+    }
+  },
+  "cn-modely-design": {
+    "url": "https://www.tesla.cn/modely/design",
+    "status": 200,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {
+        "完全自动驾驶": {
+          "count": 12,
+          "source": "code",
+          "contexts": [
+            "eselectLabel\":\"已选配置\",\"disclaimer\":\"目前可用的功能需要驾驶员主动进行监管，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车",
+            "完成绝大多数的驾驶任务。\"},\"disclaimer\":\"<br />目前可用的功能需要驾驶员主动进行监控，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车",
+            "级。\",\"disclaimer_ineligible\":\"<br />目前可用的功能需要驾驶员主动进行监控，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车"
+          ]
+        },
+        "全自动驾驶": {
+          "count": 12,
+          "source": "code",
+          "contexts": [
+            "selectLabel\":\"已选配置\",\"disclaimer\":\"目前可用的功能需要驾驶员主动进行监管，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车",
+            "成绝大多数的驾驶任务。\"},\"disclaimer\":\"<br />目前可用的功能需要驾驶员主动进行监控，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车",
+            "。\",\"disclaimer_ineligible\":\"<br />目前可用的功能需要驾驶员主动进行监控，车辆尚未实现完全自动驾驶。未来推出的功能的激活和可用性还有赖于进一步研发及行政审批（可能会需要较长的时间）。随着辅助驾驶功能的进化及完善，您的车"
+          ]
+        },
+        "智能辅助驾驶": {
+          "count": 22,
+          "source": "code",
+          "contexts": [
+            "uired\":false,\"exclusive\":false,\"default_options\":[],\"name\":\"智能辅助驾驶图集\",\"description\":\"智能辅助驾驶图集\",\"extra_content_formatted\":{\"ass",
+            "false,\"default_options\":[],\"name\":\"智能辅助驾驶图集\",\"description\":\"智能辅助驾驶图集\",\"extra_content_formatted\":{\"asset\":[[{\"url\":\"MODEL3_/UI/",
+            "or\",\"options\":[],\"required\":false,\"exclusive\":false,\"name\":\"智能辅助驾驶\",\"extra_copy_formatted\":{\"aria_label\":\"竞速套件\"}},{\"code\":\"PAY"
+          ]
+        },
+        "订阅": {
+          "count": 8,
+          "source": "code",
+          "contexts": [
+            "description3\":\"2.「高级车载娱乐服务包」的免费试用期限为 30 天，自新车交付日起计算。试用结束后可付费订阅。\",\"purchase-description3\":\"2.「高级车载娱乐服务年包」可在交付前选购，与免费试用期自动合并",
+            "n3\":\"2.「高级车载娱乐服务年包」可在交付前选购，与免费试用期自动合并。年包及免费试用期结束后不自动续费，可另行付费订阅高级车载娱乐服务。\",\"inventory-description3\":\"2.「高级车载娱乐服务包」的免费试用期限为 3",
+            "description3\":\"2.「高级车载娱乐服务包」的免费试用期限为 30 天，自新车交付日起计算。试用结束后可付费订阅。\"},\"extra_content_formatted\":{\"components\":[{\"type\":\"Title\""
+          ]
+        },
+        "稍后推出": {
+          "count": 8,
+          "source": "code",
+          "contexts": [
+            "\"feature_list\":{\"default\":\"<br />包括「基础辅助驾驶」和「增强辅助驾驶」套件的全部功能。稍后推出特斯拉辅助驾驶功能。未来您的车辆将能够在驾驶员极少干预的情况下完成绝大多数的驾驶任务。\",\"default_inelig",
+            "任务。\",\"default_ineligible\":\"<br />包括「基础辅助驾驶」和「增强辅助驾驶」套件的全部功能。稍后推出特斯拉辅助驾驶功能。未来您的车辆将能够在驾驶员极少干预的情况下完成绝大多数的驾驶任务。\",\"default_eligib",
+            "斯拉辅助驾驶\",\"full_purchase_caption\":\"包括「基础辅助驾驶」和「增强辅助驾驶」套件的全部功能。稍后推出特斯拉辅助驾驶功能。未来您的车辆将能够在驾驶员极少干预的情况下完成绝大多数的驾驶任务。\",\"full_purchase_"
+          ]
+        },
+        "转移": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "公里延长保修服务获赠权益将显示在您的订单协议首页。2年/4万公里延长保修服务跟随有效订单赠送，交付后绑定车辆，不可取消或转移至其他车辆。如需升级至4年/8万公里延长保修服务，请在提车后前往特斯拉中心咨询详情。 \",\"behavior\":[{\"t",
+            "公里延长保修服务获赠权益将显示在您的订单协议首页。2年/4万公里延长保修服务跟随有效订单赠送，交付后绑定车辆，不可取消或转移至其他车辆。如需升级至4年/8万公里延长保修服务，请在提车后前往特斯拉中心咨询详情。 \",\"behavior\":[{\"t"
+          ]
+        },
+        "FSD": {
+          "count": 78,
+          "source": "code",
+          "contexts": [
+            "的进化及完善，您的车辆将通过 OTA 空中软件更新而持续升级。\",\"selectLabel\":\"添加此功能\",\"add_fsd_package\":{\"content\":\"添加此功能\",\"behavior\":[{\"type\":\"ACTION\",\"c",
+            "imary\",\"tds-btn--small\"]}}]},\"deselectLabel\":\"已选配置\",\"remove_fsd_package\":{\"content\":\"移除此功能\",\"behavior\":[{\"type\":\"ACTION\",\"c",
+            "lass\":[\"tds-btn\",\"tds-btn--tertiary\",\"tds-btn--small\"]}}]},\"fsd_features\":{\"content\":\"了解更多\",\"behavior\":[{\"type\":\"CONTAINER\""
+          ]
+        },
+        "subscription": {
+          "count": 7,
+          "source": "code",
+          "contexts": [
+            "\":2895,\"copy_id\":27681,\"language\":\"zh\",\"pricing_id\":144450,\"subscription_options\":{\"$APPB\":{\"code\":\"$APPB\",\"name\":\"Enhanced Autopilo",
+            "ptions\":[\"$APBS\",\"$SC04\"],\"isSaveDesignEnabled\":false,\"isFsdSubscriptionStaticUrlEnabled\":false,\"isDynamicRoundingEnabled\":false,\"is",
+            "_AGREEMENT_CONSENT\"],\"showLegalConsentAfterPayX\":[],\"showFsdSubscriptionConsent\":false,\"showPrpLink\":false,\"showVAT\":true,\"showMyVAT"
+          ]
+        },
+        "China": {
+          "count": 5,
+          "source": "code",
+          "contexts": [
+            "{\"shape\":[{\"type\":\"circular\"}],\"asset\":[{\"url\":\"MODELY_/19Machina_wheel.png\",\"type\":\"image\"}]}},\"$WY19P\":{\"code\":\"$WY19P\",\"su",
+            "e\"}]},\"modely_l_configurator\":{\"asset\":[{\"url\":\"MODELY_/19Machina_wheel.png\",\"type\":\"image\"}]}},\"paint_options\":{\"premium\":{\"",
+            "e\"}]},\"modely_l_configurator\":{\"asset\":[{\"url\":\"MODELY_/19Machina_wheel.png\",\"type\":\"image\"}]}},\"paint_options\":{\"premium\":{\""
+          ]
+        }
+      },
+      "option_codes": [
+        "$APBS",
+        "$APF2",
+        "$APPB"
+      ],
+      "fsd_identifiers": [
+        "/MODEL3/UI/FSDComputer.png",
+        "App.fsdEligible",
+        "CustomGroups.FSD_AUTOPARK_CARD.name",
+        "CustomGroups.FSD_LANE_CHANGE_CARD.name",
+        "CustomGroups.FSD_NAVIGATE_CARD.name",
+        "CustomGroups.FSD_SUMMON_CARD.video_title",
+        "FSD_AUTOPARK_CARD",
+        "FSD_COMPUTER_CARD",
+        "FSD_FEATURES",
+        "FSD_GALLERY",
+        "FSD_LANE_CHANGE_CARD",
+        "FSD_NAVIGATE_CARD",
+        "FSD_SUMMON_CARD",
+        "FSD_TRAFFIC_LIGHT_CARD",
+        "add_fsd_package",
+        "fsdEligible",
+        "fsd_features",
+        "isAllowSunsetFSDinEditDesign",
+        "isFsdSubscriptionStaticUrlEnabled",
+        "remove_fsd_package",
+        "showFsdSubscriptionConsent"
+      ],
+      "availability_lists": [],
+      "mentions_china": true,
+      "price_mentions": [
+        {
+          "near": "转移",
+          "price": "4万"
+        },
+        {
+          "near": "转移",
+          "price": "8万"
+        }
+      ]
+    }
+  },
+  "cn-autopilot": {
+    "url": "https://www.tesla.cn/autopilot",
+    "status": 404,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {
+        "China": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "\\u0003\",\"suppressDeprecationErrors\":true,\"tesla_forms\":{\"is_china_domain\":true},\"tesla_locale_existing\":{\"locale\":[\"en_au\",\"d",
+            "n_ae\",\"en_gb\",\"he_il\",\"en\",\"en_us\"]},\"tesla_mega_menu\":{\"is_china_domain\":true,\"is_d8\":true,\"is_menu_visible\":true,\"mega_menu"
+          ]
+        }
+      },
+      "option_codes": [],
+      "fsd_identifiers": [
+        "//www.tesla.cn/en_us/fsd",
+        "//www.tesla.cn/fsd",
+        "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
+      ],
+      "availability_lists": [],
+      "mentions_china": true,
+      "price_mentions": []
+    }
+  },
+  "cn-support-autopilot-notes": {
+    "url": "https://www.tesla.cn/support/autopilot-notes",
+    "status": 200,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {
+        "China": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "\\u0003\",\"suppressDeprecationErrors\":true,\"tesla_forms\":{\"is_china_domain\":true},\"tesla_locale_existing\":{\"locale\":[\"zh_cn\",\"z",
+            "isting\":{\"locale\":[\"zh_cn\",\"zh_tw\"]},\"tesla_mega_menu\":{\"is_china_domain\":true,\"is_d8\":true,\"is_menu_visible\":true,\"mega_menu"
+          ]
+        }
+      },
+      "option_codes": [],
+      "fsd_identifiers": [
+        "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
+      ],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "cn-support-eap-trial": {
+    "url": "https://www.tesla.cn/support/enhanced-autopilot-trial",
+    "status": 403,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {
+        "China": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "\\u0003\",\"suppressDeprecationErrors\":true,\"tesla_forms\":{\"is_china_domain\":true},\"tesla_locale_existing\":{\"locale\":[\"en_au\",\"d",
+            "n_ae\",\"en_gb\",\"he_il\",\"en\",\"en_us\"]},\"tesla_mega_menu\":{\"is_china_domain\":true,\"is_d8\":true,\"is_menu_visible\":true,\"mega_menu"
+          ]
+        }
+      },
+      "option_codes": [],
+      "fsd_identifiers": [
+        "/zh_cn/fsd/safety",
+        "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
+      ],
+      "availability_lists": [],
+      "mentions_china": true,
+      "price_mentions": []
+    }
+  },
+  "cn-campaign-promo": {
+    "url": "https://www.tesla.cn/campaign/sales-promo-overview",
+    "status": 200,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {
+        "China": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "\\u0003\",\"suppressDeprecationErrors\":true,\"tesla_forms\":{\"is_china_domain\":true},\"tesla_locale_existing\":{\"locale\":[\"zh_cn\"]},",
+            "ocale_existing\":{\"locale\":[\"zh_cn\"]},\"tesla_mega_menu\":{\"is_china_domain\":true,\"is_d8\":true,\"is_menu_visible\":true,\"mega_menu"
+          ]
+        }
+      },
+      "option_codes": [],
+      "fsd_identifiers": [
+        "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
+      ],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "cn-support-fsd": {
+    "url": "https://www.tesla.cn/support/fsd",
+    "status": 403,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {
+        "China": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "\\u0003\",\"suppressDeprecationErrors\":true,\"tesla_forms\":{\"is_china_domain\":true},\"tesla_locale_existing\":{\"locale\":[\"en_au\",\"d",
+            "n_ae\",\"en_gb\",\"he_il\",\"en\",\"en_us\"]},\"tesla_mega_menu\":{\"is_china_domain\":true,\"is_d8\":true,\"is_menu_visible\":true,\"mega_menu"
+          ]
+        }
+      },
+      "option_codes": [],
+      "fsd_identifiers": [
+        "//www.tesla.cn/en_us/support/fsd",
+        "//www.tesla.cn/support/fsd",
+        "/ar_AE/support/fsd",
+        "/ar_MA/support/fsd",
+        "/ar_QA/support/fsd",
+        "/ar_SA/support/fsd",
+        "/cs_CZ/support/fsd",
+        "/da_DK/support/fsd",
+        "/de_AT/support/fsd",
+        "/de_CH/support/fsd",
+        "/de_DE/support/fsd",
+        "/de_LU/support/fsd",
+        "/el_GR/support/fsd",
+        "/en_AE/support/fsd",
+        "/en_AU/support/fsd",
+        "/en_CA/support/fsd",
+        "/en_EU/support/fsd",
+        "/en_GB/support/fsd",
+        "/en_HK/support/fsd",
+        "/en_IE/support/fsd",
+        "/en_IN/support/fsd",
+        "/en_JO/support/fsd",
+        "/en_MO/support/fsd",
+        "/en_MT/support/fsd",
+        "/en_MY/support/fsd",
+        "/en_NZ/support/fsd",
+        "/en_PH/support/fsd",
+        "/en_PR/support/fsd",
+        "/en_QA/support/fsd",
+        "/en_SA/support/fsd",
+        "/en_SG/support/fsd",
+        "/en_TH/support/fsd",
+        "/en_ZA/support/fsd",
+        "/es_CL/support/fsd",
+        "/es_CO/support/fsd",
+        "/es_ES/support/fsd",
+        "/es_MX/support/fsd",
+        "/es_PR/support/fsd",
+        "/es_UY/support/fsd",
+        "/et_EE/support/fsd",
+        "/fi_FI/support/fsd",
+        "/fr_BE/support/fsd",
+        "/fr_CA/support/fsd",
+        "/fr_CH/support/fsd",
+        "/fr_FR/support/fsd",
+        "/fr_LU/support/fsd",
+        "/fr_MA/support/fsd",
+        "/he_IL/support/fsd",
+        "/hr_HR/support/fsd",
+        "/hu_HU/support/fsd",
+        "/is_IS/support/fsd",
+        "/it_CH/support/fsd",
+        "/it_IT/support/fsd",
+        "/ja_JP/support/fsd",
+        "/ko_KR/support/fsd",
+        "/lt_LT/support/fsd",
+        "/lv_LV/support/fsd",
+        "/nl_BE/support/fsd",
+        "/nl_NL/support/fsd",
+        "/no_NO/support/fsd",
+        "/pl_PL/support/fsd",
+        "/pt_PT/support/fsd",
+        "/ro_RO/support/fsd",
+        "/sk_SK/support/fsd",
+        "/sl_SI/support/fsd",
+        "/support/fsd",
+        "/sv_SE/support/fsd",
+        "/th_TH/support/fsd",
+        "/tr_TR/support/fsd",
+        "/zh_HK/support/fsd",
+        "/zh_MO/support/fsd",
+        "/zh_TW/support/fsd",
+        "/zh_cn/fsd/safety",
+        "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
+      ],
+      "availability_lists": [],
+      "mentions_china": true,
+      "price_mentions": []
+    }
+  },
+  "cn-support-fsd-subscriptions": {
+    "url": "https://www.tesla.cn/support/full-self-driving-subscriptions",
+    "status": 404,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {
+        "China": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "\\u0003\",\"suppressDeprecationErrors\":true,\"tesla_forms\":{\"is_china_domain\":true},\"tesla_locale_existing\":{\"locale\":[\"en_au\",\"d",
+            "n_ae\",\"en_gb\",\"he_il\",\"en\",\"en_us\"]},\"tesla_mega_menu\":{\"is_china_domain\":true,\"is_d8\":true,\"is_menu_visible\":true,\"mega_menu"
+          ]
+        }
+      },
+      "option_codes": [],
+      "fsd_identifiers": [
+        "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
+      ],
+      "availability_lists": [],
+      "mentions_china": true,
+      "price_mentions": []
+    }
+  },
+  "cn-fsd-landing": {
+    "url": "https://www.tesla.cn/fsd",
+    "status": 404,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {
+        "China": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "\\u0003\",\"suppressDeprecationErrors\":true,\"tesla_forms\":{\"is_china_domain\":true},\"tesla_locale_existing\":{\"locale\":[\"en_au\",\"d",
+            "n_ae\",\"en_gb\",\"he_il\",\"en\",\"en_us\"]},\"tesla_mega_menu\":{\"is_china_domain\":true,\"is_d8\":true,\"is_menu_visible\":true,\"mega_menu"
+          ]
+        }
+      },
+      "option_codes": [],
+      "fsd_identifiers": [
+        "//www.tesla.cn/en_us/fsd",
+        "//www.tesla.cn/fsd",
+        "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
+      ],
+      "availability_lists": [],
+      "mentions_china": true,
+      "price_mentions": []
+    }
+  },
+  "cn-manual-model3-fsd": {
+    "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn_us/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
+    "status": 200,
+    "signals": {
+      "keywords_text": {
+        "FSD 智能辅助驾驶": {
+          "count": 89,
+          "source": "text",
+          "contexts": [
+            "﻿ FSD 智能辅助驾驶 Model 3 Owner's Manual FSD 智能辅助驾驶 Informational Purposes An",
+            "﻿ FSD 智能辅助驾驶 Model 3 Owner's Manual FSD 智能辅助驾驶 Informational Purposes An informational icon, calling your",
+            "attention 注 根据市场区域、生产日期、车辆配置、购买的选装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model 3 会尝试通过以下方式导航到您的目",
+            "装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model 3 会尝试通过以下方式导航到您的目的地：沿着道路上的弯道行驶、在交叉路口先停车再通行、进行左右转弯、",
+            "路等。 与为了在车道线清晰的多车道道路上行驶而设计的 主动巡航控制 、 自动辅助转向 和 自动辅助转向导航驾驶 不同， FSD 智能辅助驾驶 适用于各种驾驶场景。您可以在任何类型的道路上使用 FSD 智能辅助驾驶 ，包括住宅区街道和城市街道。 Warning"
+          ]
+        },
+        "智能辅助驾驶": {
+          "count": 89,
+          "source": "text",
+          "contexts": [
+            "﻿ FSD 智能辅助驾驶 Model 3 Owner's Manual FSD 智能辅助驾驶 Informational Purposes An",
+            "﻿ FSD 智能辅助驾驶 Model 3 Owner's Manual FSD 智能辅助驾驶 Informational Purposes An informational icon, calling your",
+            "ntion 注 根据市场区域、生产日期、车辆配置、购买的选装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model 3 会尝试通过以下方式导航到您的目",
+            "自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model 3 会尝试通过以下方式导航到您的目的地：沿着道路上的弯道行驶、在交叉路口先停车再通行、进行左右转弯、",
+            "与为了在车道线清晰的多车道道路上行驶而设计的 主动巡航控制 、 自动辅助转向 和 自动辅助转向导航驾驶 不同， FSD 智能辅助驾驶 适用于各种驾驶场景。您可以在任何类型的道路上使用 FSD 智能辅助驾驶 ，包括住宅区街道和城市街道。 Warning"
+          ]
+        },
+        "FSD": {
+          "count": 89,
+          "source": "text",
+          "contexts": [
+            "﻿ FSD 智能辅助驾驶 Model 3 Owner's Manual FSD 智能辅助驾驶 Informational Purp",
+            "﻿ FSD 智能辅助驾驶 Model 3 Owner's Manual FSD 智能辅助驾驶 Informational Purposes An informational icon, callin",
+            "attention 注 根据市场区域、生产日期、车辆配置、购买的选装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model 3 会尝试通过以下方",
+            "装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model 3 会尝试通过以下方式导航到您的目的地：沿着道路上的弯道行驶、在交叉路口先停车再通行、",
+            "路等。 与为了在车道线清晰的多车道道路上行驶而设计的 主动巡航控制 、 自动辅助转向 和 自动辅助转向导航驾驶 不同， FSD 智能辅助驾驶 适用于各种驾驶场景。您可以在任何类型的道路上使用 FSD 智能辅助驾驶 ，包括住宅区街道和城市街道。 W"
+          ]
+        }
+      },
+      "keywords_code": {},
+      "option_codes": [],
+      "fsd_identifiers": [
+        "CHOOSINGFSDPROFILE",
+        "CHOOSINGFSDPROFILE__d14e18",
+        "CHOOSINGFSDPROFILE__d7e19",
+        "CHOOSINGFSDPROFILE__d8e63",
+        "CHOOSINGFSDPROFILE__d8e647",
+        "CHOOSINGFSDPROFILE__d8e649",
+        "CHOOSINGFSDPROFILE__d8e702",
+        "CHOOSINGFSDPROFILE__d8e704",
+        "CHOOSINGFSDPROFILE__d8e707",
+        "FSD",
+        "STARTFSDFROMTOUCHSCREEN",
+        "STARTFSDFROMTOUCHSCREEN__d7e19",
+        "STARTFSDFROMTOUCHSCREEN__d8e27",
+        "STARTFSDFROMTOUCHSCREEN__d8e63",
+        "fsd_destination_behavior",
+        "fsd_opt_in",
+        "fsd_panel",
+        "fsd_profile_selection",
+        "start_fsd_from_park",
+        "start_fsd_from_park_always_require_brake_confirm"
+      ],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "cn-manual-modely-fsd": {
+    "url": "https://www.tesla.cn/ownersmanual/modely/zh_cn_us/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
+    "status": 200,
+    "signals": {
+      "keywords_text": {
+        "FSD 智能辅助驾驶": {
+          "count": 88,
+          "source": "text",
+          "contexts": [
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purposes An",
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purposes An informational icon, calling your",
+            "attention 注 根据市场区域、生产日期、车辆配置、购买的选装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方式导航到您的目",
+            "装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方式导航到您的目的地：沿着道路上的弯道行驶、在交叉路口先停车再通行、进行左右转弯、",
+            "路等。 与为了在车道线清晰的多车道道路上行驶而设计的 主动巡航控制 、 自动辅助转向 和 自动辅助转向导航驾驶 不同， FSD 智能辅助驾驶 适用于各种驾驶场景。您可以在任何类型的道路上使用 FSD 智能辅助驾驶 ，包括住宅区街道和城市街道。 Warning"
+          ]
+        },
+        "智能辅助驾驶": {
+          "count": 88,
+          "source": "text",
+          "contexts": [
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purposes An",
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purposes An informational icon, calling your",
+            "ntion 注 根据市场区域、生产日期、车辆配置、购买的选装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方式导航到您的目",
+            "自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方式导航到您的目的地：沿着道路上的弯道行驶、在交叉路口先停车再通行、进行左右转弯、",
+            "与为了在车道线清晰的多车道道路上行驶而设计的 主动巡航控制 、 自动辅助转向 和 自动辅助转向导航驾驶 不同， FSD 智能辅助驾驶 适用于各种驾驶场景。您可以在任何类型的道路上使用 FSD 智能辅助驾驶 ，包括住宅区街道和城市街道。 Warning"
+          ]
+        },
+        "FSD": {
+          "count": 88,
+          "source": "text",
+          "contexts": [
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purp",
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purposes An informational icon, callin",
+            "attention 注 根据市场区域、生产日期、车辆配置、购买的选装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方",
+            "装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方式导航到您的目的地：沿着道路上的弯道行驶、在交叉路口先停车再通行、",
+            "路等。 与为了在车道线清晰的多车道道路上行驶而设计的 主动巡航控制 、 自动辅助转向 和 自动辅助转向导航驾驶 不同， FSD 智能辅助驾驶 适用于各种驾驶场景。您可以在任何类型的道路上使用 FSD 智能辅助驾驶 ，包括住宅区街道和城市街道。 W"
+          ]
+        }
+      },
+      "keywords_code": {},
+      "option_codes": [],
+      "fsd_identifiers": [
+        "CHOOSINGFSDPROFILE",
+        "CHOOSINGFSDPROFILE__d13e18",
+        "CHOOSINGFSDPROFILE__d14e63",
+        "CHOOSINGFSDPROFILE__d14e647",
+        "CHOOSINGFSDPROFILE__d14e649",
+        "CHOOSINGFSDPROFILE__d14e702",
+        "CHOOSINGFSDPROFILE__d14e704",
+        "CHOOSINGFSDPROFILE__d14e707",
+        "CHOOSINGFSDPROFILE__d7e19",
+        "FSD",
+        "STARTFSDFROMTOUCHSCREEN",
+        "STARTFSDFROMTOUCHSCREEN__d14e27",
+        "STARTFSDFROMTOUCHSCREEN__d14e63",
+        "STARTFSDFROMTOUCHSCREEN__d7e19",
+        "fsd_destination_behavior",
+        "fsd_opt_in",
+        "fsd_panel",
+        "fsd_profile_selection",
+        "start_fsd_from_park",
+        "start_fsd_from_park_always_require_brake_confirm"
+      ],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "cn-manual-2020-modely-fsd": {
+    "url": "https://www.tesla.cn/ownersmanual/2020_2024_modely/zh_cn_us/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
+    "status": 200,
+    "signals": {
+      "keywords_text": {
+        "FSD 智能辅助驾驶": {
+          "count": 90,
+          "source": "text",
+          "contexts": [
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purposes An",
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purposes An informational icon, calling your",
+            "attention 注 根据市场区域、生产日期、车辆配置、购买的选装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方式导航到您的目",
+            "装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方式导航到您的目的地：沿着道路上的弯道行驶、在交叉路口先停车再通行、进行左右转弯、",
+            "路等。 与为了在车道线清晰的多车道道路上行驶而设计的 主动巡航控制 、 自动辅助转向 和 自动辅助转向导航驾驶 不同， FSD 智能辅助驾驶 适用于各种驾驶场景。您可以在任何类型的道路上使用 FSD 智能辅助驾驶 ，包括住宅区街道和城市街道。 Warning"
+          ]
+        },
+        "智能辅助驾驶": {
+          "count": 90,
+          "source": "text",
+          "contexts": [
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purposes An",
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purposes An informational icon, calling your",
+            "ntion 注 根据市场区域、生产日期、车辆配置、购买的选装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方式导航到您的目",
+            "自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方式导航到您的目的地：沿着道路上的弯道行驶、在交叉路口先停车再通行、进行左右转弯、",
+            "与为了在车道线清晰的多车道道路上行驶而设计的 主动巡航控制 、 自动辅助转向 和 自动辅助转向导航驾驶 不同， FSD 智能辅助驾驶 适用于各种驾驶场景。您可以在任何类型的道路上使用 FSD 智能辅助驾驶 ，包括住宅区街道和城市街道。 Warning"
+          ]
+        },
+        "FSD": {
+          "count": 90,
+          "source": "text",
+          "contexts": [
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purp",
+            "﻿ FSD 智能辅助驾驶 Model Y Owner's Manual FSD 智能辅助驾驶 Informational Purposes An informational icon, callin",
+            "attention 注 根据市场区域、生产日期、车辆配置、购买的选装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方",
+            "装件、 自动驾驶 硬件和软件版本，您的车辆可能未配备 FSD 智能辅助驾驶 ，或者相关功能的表现与说明有所不同。 开启 FSD 智能辅助驾驶 后， Model Y 会尝试通过以下方式导航到您的目的地：沿着道路上的弯道行驶、在交叉路口先停车再通行、",
+            "路等。 与为了在车道线清晰的多车道道路上行驶而设计的 主动巡航控制 、 自动辅助转向 和 自动辅助转向导航驾驶 不同， FSD 智能辅助驾驶 适用于各种驾驶场景。您可以在任何类型的道路上使用 FSD 智能辅助驾驶 ，包括住宅区街道和城市街道。 W"
+          ]
+        }
+      },
+      "keywords_code": {},
+      "option_codes": [],
+      "fsd_identifiers": [
+        "CHOOSINGFSDPROFILE",
+        "CHOOSINGFSDPROFILE__d15e18",
+        "CHOOSINGFSDPROFILE__d7e19",
+        "CHOOSINGFSDPROFILE__d8e63",
+        "CHOOSINGFSDPROFILE__d8e647",
+        "CHOOSINGFSDPROFILE__d8e649",
+        "CHOOSINGFSDPROFILE__d8e702",
+        "CHOOSINGFSDPROFILE__d8e704",
+        "CHOOSINGFSDPROFILE__d8e707",
+        "FSD",
+        "STARTFSDFROMTOUCHSCREEN",
+        "STARTFSDFROMTOUCHSCREEN__d7e19",
+        "STARTFSDFROMTOUCHSCREEN__d8e27",
+        "STARTFSDFROMTOUCHSCREEN__d8e63",
+        "fsd_destination_behavior",
+        "fsd_opt_in",
+        "fsd_panel",
+        "fsd_profile_selection",
+        "start_fsd_from_park",
+        "start_fsd_from_park_always_require_brake_confirm"
+      ],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "cn-manual-model3-home": {
+    "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn/GUID-E5FF5E84-6AAC-43E6-B7ED-EC1E9AEB17B7.html",
+    "status": 200,
+    "signals": {
+      "keywords_text": {
+        "智能辅助驾驶": {
+          "count": 4,
+          "source": "text",
+          "contexts": [
+            "软件版本，您的车辆可能未配备这些功能，或者相关功能的表现与说明有所不同。 主动巡航控制 智能辅助转向 智能辅助导航驾驶 智能辅助驾驶 （如配备） 智能泊车 每次驾驶前和使用本主题所述的功能之前，确保所有摄像头清洁，无障碍物阻挡（请参阅 清洁摄像头 ）。",
+            "驻车辅助 车辆保持 牵引力控制 加速模式 悬架 赛道模式 驾驶员设定 主动防护前罩 行程信息 后置摄像头 行人警示系统 智能辅助驾驶 智能辅助驾驶 （如配备） 智能辅助驾驶 限制 其他 辅助驾驶 功能 关于 辅助驾驶 主动巡航控制 智能辅助转向 智能泊",
+            "保持 牵引力控制 加速模式 悬架 赛道模式 驾驶员设定 主动防护前罩 行程信息 后置摄像头 行人警示系统 智能辅助驾驶 智能辅助驾驶 （如配备） 智能辅助驾驶 限制 其他 辅助驾驶 功能 关于 辅助驾驶 主动巡航控制 智能辅助转向 智能泊车 召唤功能",
+            "悬架 赛道模式 驾驶员设定 主动防护前罩 行程信息 后置摄像头 行人警示系统 智能辅助驾驶 智能辅助驾驶 （如配备） 智能辅助驾驶 限制 其他 辅助驾驶 功能 关于 辅助驾驶 主动巡航控制 智能辅助转向 智能泊车 召唤功能 辅助驾驶 限制和警告 主动"
+          ]
+        }
+      },
+      "keywords_code": {},
+      "option_codes": [],
+      "fsd_identifiers": [
+        "fsd_opt_in"
+      ],
+      "availability_lists": [],
+      "mentions_china": true,
+      "price_mentions": []
+    }
+  },
+  "cn-manual-sitemap": {
+    "url": "https://www.tesla.cn/ownersmanual/sitemap.xml",
+    "status": 404,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {},
+      "option_codes": [],
+      "fsd_identifiers": [],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "us-support-autopilot": {
+    "url": "https://www.tesla.com/support/autopilot",
+    "status": 403,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {},
+      "option_codes": [],
+      "fsd_identifiers": [],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "us-support-fsd-subscriptions": {
+    "url": "https://www.tesla.com/support/full-self-driving-subscriptions",
+    "status": 403,
+    "signals": {
+      "keywords_text": {
+        "subscription": {
+          "count": 1,
+          "source": "text",
+          "contexts": [
+            "n to access \"http://www.tesla.com/support/full-self-driving-subscriptions\" on this server. Reference #18.8fbd7768.1788329004.10b6e66"
+          ]
+        }
+      },
+      "keywords_code": {},
+      "option_codes": [],
+      "fsd_identifiers": [],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "us-fsd-landing": {
+    "url": "https://www.tesla.com/fsd",
+    "status": 403,
+    "signals": {
+      "keywords_text": {
+        "FSD": {
+          "count": 1,
+          "source": "text",
+          "contexts": [
+            "d You don't have permission to access \"http://www.tesla.com/fsd\" on this server. Reference #18.8fbd7768.1788329015.10b7049a"
+          ]
+        }
+      },
+      "keywords_code": {},
+      "option_codes": [],
+      "fsd_identifiers": [
+        "//www.tesla.com/fsd"
+      ],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "us-model3-design": {
+    "url": "https://www.tesla.com/model3/design",
+    "status": 403,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {},
+      "option_codes": [],
+      "fsd_identifiers": [],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "hk-support-fsd-subscriptions": {
+    "url": "https://www.tesla.com/zh_hk/support/full-self-driving-subscriptions",
+    "status": 403,
+    "signals": {
+      "keywords_text": {
+        "subscription": {
+          "count": 1,
+          "source": "text",
+          "contexts": [
+            "ccess \"http://www.tesla.com/zh_hk/support/full-self-driving-subscriptions\" on this server. Reference #18.133b2f17.1788329036.1783c32"
+          ]
+        }
+      },
+      "keywords_code": {},
+      "option_codes": [],
+      "fsd_identifiers": [],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  },
+  "us-ai": {
+    "url": "https://www.tesla.com/AI",
+    "status": 403,
+    "signals": {
+      "keywords_text": {},
+      "keywords_code": {},
+      "option_codes": [],
+      "fsd_identifiers": [],
+      "availability_lists": [],
+      "mentions_china": false,
+      "price_mentions": []
+    }
+  }
+}
