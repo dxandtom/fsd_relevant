@@ -95,6 +95,36 @@
       "note": "手册站 sitemap（若存在则含每页 lastmod，最直接的手册更新时间证据）"
     },
     {
+      "slug": "cn-manual-m3-index-zhcn",
+      "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn/index.html",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "Model 3 手册首页（zh_cn 语区）：版本选择器/横幅，判断手册是否已到 2026.26"
+    },
+    {
+      "slug": "cn-manual-m3-index-zhcnus",
+      "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn_us/index.html",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "Model 3 手册首页（zh_cn_us 语区）：与 zh_cn 对比，厘清两条手册轨道各对应哪个市场/固件"
+    },
+    {
+      "slug": "com-manual-m3-index-zhcn",
+      "url": "https://www.tesla.com/ownersmanual/model3/zh_cn/index.html",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "用户指认的 tesla.com zh_cn 手册首页（可能被 Akamai 拦，403 本身也记录）"
+    },
+    {
+      "slug": "cn-manual-m3-fsd-zhcn",
+      "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "Model 3 FSD 章节（zh_cn 语区）：与 zh_cn_us 版章节做内容 diff，识别软件轨道差异"
+    },
+    {
+      "slug": "cn-manual-my-fsd-zhcn",
+      "url": "https://www.tesla.cn/ownersmanual/modely/zh_cn/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "Model Y FSD 章节（zh_cn 语区）：同上"
+    },
+    {
       "slug": "us-support-autopilot",
       "url": "https://www.tesla.com/support/autopilot",
       "lang": "en-US,en;q=0.9",
