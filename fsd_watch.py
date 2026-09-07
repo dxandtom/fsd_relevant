@@ -74,6 +74,8 @@ KEYWORDS = [
     "FSD 智能辅助驾驶",
     "智能辅助驾驶",
     "特斯拉驾驶辅助",
+    "特斯拉辅助驾驶",
+    "树懒",
     "增强版自动辅助驾驶",
     "自动辅助驾驶",
     "城市道路",
@@ -530,7 +532,17 @@ def cmd_diff(args):
         for near, price in sorted(o_prices - n_prices):
             alerts.append(f"**[价格-]** `{slug}`: “{near}”附近的 {price} 消失")
 
-        # 4) 含关键词的文案行增删
+        # 4) 代码层（script/JSON 内）关键词计数变化——页面上不可见的文案改动
+        o_kc = {k: v["count"] for k, v in o_sig["keywords_code"].items()}
+        n_kc = {k: v["count"] for k, v in n_sig["keywords_code"].items()}
+        for kw in sorted(set(o_kc) | set(n_kc)):
+            ov, nv = o_kc.get(kw, 0), n_kc.get(kw, 0)
+            if ov != nv:
+                alerts.append(
+                    f"**[代码文案]** `{slug}`: “{kw}” 在源码中 {ov} → {nv} 处"
+                )
+
+        # 5) 含关键词的文案行增删
         diff_lines = list(
             difflib.unified_diff(
                 o_text.splitlines(), n_text.splitlines(), lineterm="", n=0
