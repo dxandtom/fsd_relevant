@@ -122,7 +122,19 @@
       "slug": "cn-manual-my-fsd-zhcn",
       "url": "https://www.tesla.cn/ownersmanual/modely/zh_cn/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
       "lang": "zh-CN,zh;q=0.9",
-      "note": "Model Y FSD 章节（zh_cn 语区）：同上"
+      "note": "Model Y FSD 章节（zh_cn 语区）：探针（当前 404，变 200 = Model Y 中国手册获得 FSD 章节）"
+    },
+    {
+      "slug": "cn-manual-my-index-zhcn",
+      "url": "https://www.tesla.cn/ownersmanual/modely/zh_cn/index.html",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "Model Y 手册首页（zh_cn 中国轨道）：版本标签监控"
+    },
+    {
+      "slug": "cn-manual-my-index-zhcnus",
+      "url": "https://www.tesla.cn/ownersmanual/modely/zh_cn_us/index.html",
+      "lang": "zh-CN,zh;q=0.9",
+      "note": "Model Y 手册首页（zh_cn_us 北美简中轨道）：版本标签监控"
     },
     {
       "slug": "us-support-autopilot",
