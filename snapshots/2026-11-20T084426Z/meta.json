@@ -4,196 +4,187 @@
     "note": "中国官网首页：FSD/驾驶辅助相关横幅、发布会或全量推送公告通常首发于此",
     "status": 200,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:09:38.957285+00:00",
+    "fetched_at": "2026-11-20T08:44:29.732477+00:00",
     "error": null,
-    "headers": {
-      "Age": "68511"
-    },
-    "bytes": 1102338,
-    "sha256": "ac27af33397e6e2b4d0e3f2c12a22f33938e4b41b1bc062bd14fcbf0c7994b0d"
+    "bytes": 1110989,
+    "sha256": "44653bcedab4bf1b466f1dc82ab1a93b9b1b17f30dbbbd6eabfe2cccde6b667c"
   },
   "cn-model3-design": {
     "url": "https://www.tesla.cn/model3/design",
     "note": "Model 3 订购页：FSD 选装包的中文命名、价格（现 ¥64,000 买断）、以及嵌入 JSON 中的选装代码；出现『订阅/包月』字样 = 大陆转订阅制的信号",
     "status": 200,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:09:45.887052+00:00",
+    "fetched_at": "2026-11-20T08:44:36.882113+00:00",
     "error": null,
     "headers": {
-      "ETag": "W/\"1789957515-1152595397\"",
+      "ETag": "W/\"1794533916-2957594207\"",
       "Age": "0"
     },
-    "bytes": 1363014,
-    "sha256": "488698786cffb67a9d5ab7fee47c0820e85052b46300b3454106163d4c3a4643"
+    "bytes": 1109222,
+    "sha256": "e9f854ed5931a03b01e433b34eb584620776ce4f9db6a39046f1e4e59b160838"
   },
   "cn-modely-design": {
     "url": "https://www.tesla.cn/modely/design",
     "note": "Model Y 订购页：同上",
     "status": 200,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:09:52.796504+00:00",
+    "fetched_at": "2026-11-20T08:44:43.705549+00:00",
     "error": null,
     "headers": {
-      "ETag": "W/\"1789957515-3422372996\"",
+      "ETag": "W/\"1794533916-1693351083\"",
       "Age": "0"
     },
-    "bytes": 1314527,
-    "sha256": "ac0381d7e3eaf8c3037383b0a1276b799fd8191e7987d70fac9a9a61e4f98c5a"
+    "bytes": 1036160,
+    "sha256": "056a1a588c79f7c5fbfbc0887af4480a06da2ffeff01bed56e01a2f99162227e"
   },
   "cn-autopilot": {
     "url": "https://www.tesla.cn/autopilot",
     "note": "中国官网 Autopilot 落地页（/support/autopilot 在 tesla.cn 不存在，实测 404；英文版为 /en/autopilot）",
     "status": 404,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:10:04.112194+00:00",
+    "fetched_at": "2026-11-20T08:44:55.689395+00:00",
     "error": null,
     "headers": {
       "Age": "0"
     },
-    "bytes": 1030226,
-    "sha256": "488d01c2cf4c5fe49b20e3339e0f44122b284b188cae9ebd556c1131cec031c7"
+    "bytes": 1027969,
+    "sha256": "ab88d5a54950b4d19f22878f09d17b5d910818cc16988edf9bb6505321a524f1"
   },
   "cn-support-autopilot-notes": {
     "url": "https://www.tesla.cn/support/autopilot-notes",
     "note": "「关于 Autopilot 自动辅助驾驶的使用说明和警示」：免责声明与功能边界措辞变化",
     "status": 200,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:10:10.526518+00:00",
+    "fetched_at": "2026-11-20T08:45:02.266114+00:00",
     "error": null,
     "headers": {
-      "Age": "31263"
+      "Age": "66902"
     },
-    "bytes": 1036144,
-    "sha256": "6a6a6d074f0310badb0b7c6e3f58160449ebbd71e0d0ed20b45b359646911ae9"
+    "bytes": 1032568,
+    "sha256": "ec9b199e888416993474b55a08ddded9ce0d47b437d1a894954f818e1d4b0baa"
   },
   "cn-support-eap-trial": {
     "url": "https://www.tesla.cn/support/enhanced-autopilot-trial",
     "note": "增强版自动辅助驾驶「月包/季包」页：中国已有的按月付费链路（App 升级标签购买）——FSD 订阅上线前最可能先在此类页面出现痕迹",
     "status": 403,
     "engine": "playwright",
-    "fetched_at": "2026-09-23T06:10:29.822364+00:00",
+    "fetched_at": "2026-11-20T08:45:24.337149+00:00",
     "error": null,
     "headers": {
       "Age": "0"
     },
-    "bytes": 1103902,
-    "sha256": "7dc2fa225ca9a92739b00f6a698043414ab98dae061ee4520c68398b41121aea"
+    "bytes": 1103332,
+    "sha256": "5d96758c0b58785254670539feb22e63567b6179a31d8ada6028e8890c0138bb"
   },
   "cn-campaign-promo": {
     "url": "https://www.tesla.cn/campaign/sales-promo-overview",
     "note": "现行活动规则汇总页：首页 id=FSD 锚点区块当前指向这里，FSD 限时权益/转移活动通常在此公示",
     "status": 200,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:10:36.199395+00:00",
+    "fetched_at": "2026-11-20T08:45:31.224230+00:00",
     "error": null,
     "headers": {
-      "Age": "21958"
+      "Age": "437"
     },
-    "bytes": 1115578,
-    "sha256": "cd1a27b8c0bf000dfc0a55985f1b171862d1c18b78c74e7968d6e2213bf2eb15"
+    "bytes": 1134171,
+    "sha256": "dcd9151303fb333d3570fd73f79d82bd76bc734918985f7db9ebf68bef61f96c"
   },
   "cn-support-fsd": {
     "url": "https://www.tesla.cn/support/fsd",
     "note": "探针：美国官网已有 /support/fsd，中文版页面上线（404→200）= 全量落地临近",
     "status": 403,
     "engine": "playwright",
-    "fetched_at": "2026-09-23T06:10:50.053939+00:00",
+    "fetched_at": "2026-11-20T08:45:55.540029+00:00",
     "error": null,
     "headers": {
       "Age": "0"
     },
-    "bytes": 1099366,
-    "sha256": "334682835b3ce43874c1efaf4530b5fa5dff0f472f145dc09a8c454872275cba"
+    "bytes": 1098607,
+    "sha256": "fbe039914b12d3fb9cd78ac71ff9da09ce6f0cbcca95ca3eb03bb6e5868d2203"
   },
   "cn-support-fsd-subscriptions": {
     "url": "https://www.tesla.cn/support/full-self-driving-subscriptions",
     "note": "探针：大陆 FSD 订阅支持页上线（404→200）= 订阅制落地的决定性信号",
     "status": 404,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:10:57.919026+00:00",
+    "fetched_at": "2026-11-20T08:46:02.734970+00:00",
     "error": null,
-    "bytes": 1030292,
-    "sha256": "59c88ff9f638e0f7514cd4782feac3fdcfa03e99ecb10eeaba531628c5cf465b"
+    "bytes": 1028113,
+    "sha256": "0c778d454286feb9d2f7cea1e7dc9d81fe99d5a9fef01e86dce2f69f197e9c2a"
   },
   "cn-fsd-landing": {
     "url": "https://www.tesla.cn/fsd",
     "note": "探针：tesla.com/fsd 落地页的中文版",
     "status": 404,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:11:08.140337+00:00",
+    "fetched_at": "2026-11-20T08:46:16.465514+00:00",
     "error": null,
     "headers": {
       "Age": "0"
     },
-    "bytes": 1030226,
-    "sha256": "488d01c2cf4c5fe49b20e3339e0f44122b284b188cae9ebd556c1131cec031c7"
+    "bytes": 1027969,
+    "sha256": "ab88d5a54950b4d19f22878f09d17b5d910818cc16988edf9bb6505321a524f1"
   },
   "cn-manual-model3-fsd": {
     "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn_us/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
     "note": "Model 3 中文车主手册『FSD 智能辅助驾驶』章节：2026.14 版起包含完整 FSD V14 功能说明，章节内容与版本号变化反映软件推送节奏",
-    "status": 200,
+    "status": 404,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:11:14.682330+00:00",
+    "fetched_at": "2026-11-20T08:46:23.866172+00:00",
     "error": null,
     "headers": {
-      "Last-Modified": "Tue, 07 Jul 2026 22:16:49 GMT",
-      "ETag": "W/\"82bc38b28b08a4e6cfceb9111ec32203\"",
       "Age": "0"
     },
-    "bytes": 125355,
-    "sha256": "c746e4435da9de0d9e728cd204e472b596b153c7456e05eef4feb396ee47e4cb"
+    "bytes": 242,
+    "sha256": "8d0a54f9233b3b05ffcb8b2f4399e5bece8b5e853a2495f02f72400db686b132"
   },
   "cn-manual-modely-fsd": {
     "url": "https://www.tesla.cn/ownersmanual/modely/zh_cn_us/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
     "note": "Model Y 中文车主手册 FSD 章节：同上",
-    "status": 200,
+    "status": 404,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:11:21.601654+00:00",
+    "fetched_at": "2026-11-20T08:46:30.470215+00:00",
     "error": null,
     "headers": {
-      "Last-Modified": "Tue, 07 Jul 2026 23:18:29 GMT",
-      "ETag": "W/\"3aa6c38e4d3804c7578261bde6e8ea69\"",
       "Age": "0"
     },
-    "bytes": 123845,
-    "sha256": "2464f5b5d34b78eb99b59dcc4908bd19dd6e0ab19aef4cb00a7418f0dae6c04f"
+    "bytes": 242,
+    "sha256": "8e49123991913af5d7370aa8b9cc53a7cd6460f03dfce524f36e7760a16b66b4"
   },
   "cn-manual-2020-modely-fsd": {
     "url": "https://www.tesla.cn/ownersmanual/2020_2024_modely/zh_cn_us/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
     "note": "旧款 Model Y（2020-2024，多为 HW3 硬件）手册对应章节，现标题「完全自动驾驶能力（监控版本）」——若更新为完整 FSD 章节 = 旧硬件适配推进的信号",
-    "status": 200,
+    "status": 404,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:11:28.051340+00:00",
+    "fetched_at": "2026-11-20T08:46:37.188919+00:00",
     "error": null,
     "headers": {
-      "Last-Modified": "Tue, 07 Jul 2026 21:46:44 GMT",
-      "ETag": "W/\"5ce9c698423d657578bf368c429ea9df\"",
       "Age": "0"
     },
-    "bytes": 126016,
-    "sha256": "50a30f96331418b7c959c63c810891c6cc4e025eb1a7a8023e28c2d100a40824"
+    "bytes": 252,
+    "sha256": "0a49c4854197a330c6d29d8b8ea98f7942417e85688b15f97d233cfab1473b58"
   },
   "cn-manual-model3-home": {
     "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn/GUID-E5FF5E84-6AAC-43E6-B7ED-EC1E9AEB17B7.html",
     "note": "Model 3 中文车主手册「辅助驾驶 限制和警告」页：免责/限制措辞变化",
     "status": 200,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:11:34.611675+00:00",
+    "fetched_at": "2026-11-20T08:46:43.798737+00:00",
     "error": null,
     "headers": {
-      "Last-Modified": "Tue, 21 Jul 2026 18:55:32 GMT",
-      "ETag": "W/\"4936135494554b93bb974859bcc44be6\"",
+      "Last-Modified": "Wed, 04 Nov 2026 19:56:05 GMT",
+      "ETag": "W/\"7d92983d80f8f544534a82eaf1e096d8\"",
       "Age": "0"
     },
-    "bytes": 85620,
-    "sha256": "361c41b399bf46d9796bd7d66280253ba2b18276f690e4a31f5badc2afcba526"
+    "bytes": 85945,
+    "sha256": "17370458c6ec6c67aa568fe1394e9299bef5eecd5a37014d050d4688587d075b"
   },
   "cn-manual-sitemap": {
     "url": "https://www.tesla.cn/ownersmanual/sitemap.xml",
     "note": "手册站 sitemap（若存在则含每页 lastmod，最直接的手册更新时间证据）",
     "status": 404,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:11:41.120854+00:00",
+    "fetched_at": "2026-11-20T08:46:51.137693+00:00",
     "error": null,
     "headers": {
       "Age": "0"
@@ -206,62 +197,58 @@
     "note": "Model 3 手册首页（zh_cn 语区）：版本选择器/横幅，判断手册是否已到 2026.26",
     "status": 200,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:11:47.783351+00:00",
+    "fetched_at": "2026-11-20T08:46:59.019135+00:00",
     "error": null,
     "headers": {
-      "Last-Modified": "Tue, 21 Jul 2026 18:55:32 GMT",
-      "ETag": "W/\"7be99726b29c59d9d7e94cc97192af6b\"",
+      "Last-Modified": "Wed, 04 Nov 2026 19:56:05 GMT",
+      "ETag": "W/\"20639b2ece6d20d73e5b0854058e2553\"",
       "Age": "0"
     },
-    "bytes": 37946,
-    "sha256": "7539da1c81faa739eb063aa20881d1d9442d2eacd52f75b55d9821cd8726837b"
+    "bytes": 38839,
+    "sha256": "37354a0ba7eac324514fd1d6efcafcb25905a27245e82cab301e9601a0bc29b4"
   },
   "cn-manual-m3-index-zhcnus": {
     "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn_us/index.html",
     "note": "Model 3 手册首页（zh_cn_us 语区）：与 zh_cn 对比，厘清两条手册轨道各对应哪个市场/固件",
-    "status": 200,
+    "status": 404,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:11:54.295858+00:00",
+    "fetched_at": "2026-11-20T08:47:06.320022+00:00",
     "error": null,
     "headers": {
-      "Last-Modified": "Tue, 07 Jul 2026 22:16:52 GMT",
-      "ETag": "W/\"055ed58ae8040e1ae5ebfe60cb33d7e1\"",
       "Age": "0"
     },
-    "bytes": 38283,
-    "sha256": "5f656e142ea592cf6df9c6dc4e99a18499eca39fff317dbef57aec4717a80c2a"
+    "bytes": 206,
+    "sha256": "abc83504128af164fd35026bba11bc13b8fafba8c7513d30fd6e5d628fb18736"
   },
   "com-manual-m3-index-zhcn": {
     "url": "https://www.tesla.com/ownersmanual/model3/zh_cn/index.html",
     "note": "用户指认的 tesla.com zh_cn 手册首页（可能被 Akamai 拦，403 本身也记录）",
     "status": 403,
     "engine": "playwright",
-    "fetched_at": "2026-09-23T06:12:05.025186+00:00",
+    "fetched_at": "2026-11-20T08:47:16.931000+00:00",
     "error": null,
-    "bytes": 323,
-    "sha256": "5533481e4d13013a5c0df3cc42f9c121d4a2ea562c2731f2ab5e139f756cbf87"
+    "bytes": 327,
+    "sha256": "93bf6f855a4ef033ef8f4733474ed6d8ec511344cac897fa377e060c9b544a10"
   },
   "cn-manual-m3-fsd-zhcn": {
     "url": "https://www.tesla.cn/ownersmanual/model3/zh_cn/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
     "note": "Model 3 FSD 章节（zh_cn 语区）：与 zh_cn_us 版章节做内容 diff，识别软件轨道差异",
-    "status": 200,
+    "status": 404,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:12:11.457913+00:00",
+    "fetched_at": "2026-11-20T08:47:24.328134+00:00",
     "error": null,
     "headers": {
-      "Last-Modified": "Tue, 21 Jul 2026 18:55:29 GMT",
-      "ETag": "W/\"1d118c2efe6a668a83c35b58495b9536\"",
       "Age": "0"
     },
-    "bytes": 108543,
-    "sha256": "29f8a90d573c1122c67f4c02cff5170d751bdbc758ac721c6db0494ec81fd971"
+    "bytes": 239,
+    "sha256": "a9f46a4e8fb9cdd593020dcf5412482b9e1f82fec8f9b484221674135f703c47"
   },
   "cn-manual-my-fsd-zhcn": {
     "url": "https://www.tesla.cn/ownersmanual/modely/zh_cn/GUID-2CB60804-9CEA-4F4B-8B04-09B991368DC5.html",
     "note": "Model Y FSD 章节（zh_cn 语区）：探针（当前 404，变 200 = Model Y 中国手册获得 FSD 章节）",
     "status": 404,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:12:18.403518+00:00",
+    "fetched_at": "2026-11-20T08:47:30.877109+00:00",
     "error": null,
     "headers": {
       "Age": "0"
@@ -274,89 +261,87 @@
     "note": "Model Y 手册首页（zh_cn 中国轨道）：版本标签监控",
     "status": 200,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:12:25.035501+00:00",
+    "fetched_at": "2026-11-20T08:47:41.965357+00:00",
     "error": null,
     "headers": {
-      "Last-Modified": "Tue, 21 Jul 2026 18:55:54 GMT",
-      "ETag": "W/\"a5e8f9a03de60116a28578e56a0c3ed9\"",
+      "Last-Modified": "Wed, 04 Nov 2026 19:56:30 GMT",
+      "ETag": "W/\"e1dfb04cf8ac8cf1d3125f011cd0e4fd\"",
       "Age": "0"
     },
-    "bytes": 37607,
-    "sha256": "30a4ffa9d6886df69e16693ace064aa91f9e4ce02174e0ab1e9b456427dbe911"
+    "bytes": 39131,
+    "sha256": "eabc3a69577137f7b7ff942c28bc0a796c8c6a09cdca49ed7e715fad8ef33df6"
   },
   "cn-manual-my-index-zhcnus": {
     "url": "https://www.tesla.cn/ownersmanual/modely/zh_cn_us/index.html",
     "note": "Model Y 手册首页（zh_cn_us 北美简中轨道）：版本标签监控",
-    "status": 200,
+    "status": 404,
     "engine": "requests",
-    "fetched_at": "2026-09-23T06:12:31.508287+00:00",
+    "fetched_at": "2026-11-20T08:47:48.476376+00:00",
     "error": null,
     "headers": {
-      "Last-Modified": "Tue, 07 Jul 2026 23:18:33 GMT",
-      "ETag": "W/\"70fbb91bbde43484e504755b9e44cfef\"",
       "Age": "0"
     },
-    "bytes": 38336,
-    "sha256": "73492181d0041380045f6bbb5385ef677c85e6a227922147bbfda6fdbb5d4ee3"
+    "bytes": 206,
+    "sha256": "385976de846de9c73c40138847863389631e2dc57acfeb3ad352044ef12d99a1"
   },
   "us-support-autopilot": {
     "url": "https://www.tesla.com/support/autopilot",
     "note": "美国官网 Autopilot 支持页：对照组",
     "status": 403,
     "engine": "playwright",
-    "fetched_at": "2026-09-23T06:12:42.030997+00:00",
+    "fetched_at": "2026-11-20T08:47:58.969891+00:00",
     "error": null,
-    "bytes": 304,
-    "sha256": "673ef9015ad854b3088d8faebde98b2646b726377b0a2bc613d4f72ee7e228ca"
+    "bytes": 308,
+    "sha256": "42e588c0db62f89537534f3e00b5a8d74fb643c27bccb3e32375bf5bd8d97fac"
   },
   "us-support-fsd-subscriptions": {
     "url": "https://www.tesla.com/support/full-self-driving-subscriptions",
     "note": "关键页：『currently available in ...』订阅可用国家清单；2026-08-22 更新为 12 国且不含中国曾引发误读；China 加入此清单 = 大陆订阅上线",
     "status": 403,
     "engine": "playwright",
-    "fetched_at": "2026-09-23T06:12:52.539843+00:00",
+    "fetched_at": "2026-11-20T08:48:09.502621+00:00",
     "error": null,
-    "bytes": 326,
-    "sha256": "9bb293cbfab07eaa44653774349cb9af915d65745e423c1991c1d87d94562496"
+    "bytes": 330,
+    "sha256": "0a7890c3eb9604e42fe62c836c40bb94ebc3bed1a38f43f4c1573d33627d275e"
   },
   "us-fsd-landing": {
     "url": "https://www.tesla.com/fsd",
     "note": "FSD 全球落地页：可用地区措辞（截至 2026-08 该页系口径仍列出 China 为可用市场）",
     "status": 403,
     "engine": "playwright",
-    "fetched_at": "2026-09-23T06:13:03.090649+00:00",
+    "fetched_at": "2026-11-20T08:48:20.020232+00:00",
     "error": null,
-    "bytes": 290,
-    "sha256": "1183247cd0765db912f002d271bf6450d6de358f463c6d4bb3ecf4f46480c2f9"
+    "bytes": 294,
+    "sha256": "ff628b0158b135c1e97f58ba5dd6958c8bdd8f766f9b709574008f7c6bdf40c7"
   },
   "us-model3-design": {
     "url": "https://www.tesla.com/model3/design",
     "note": "美国订购页：对照组（订阅制、$APF2 等选装代码基线）",
     "status": 403,
     "engine": "playwright",
-    "fetched_at": "2026-09-23T06:13:13.626019+00:00",
+    "fetched_at": "2026-11-20T08:48:30.549170+00:00",
     "error": null,
-    "bytes": 300,
-    "sha256": "6bfd2877191fb0175bbd0ca601b0e5bc0b89e859dde7af95fcadffac6d2b6f5c"
+    "bytes": 304,
+    "sha256": "81ba096c9cbecba2de037f487cb920a855b76dedaf897f58e92ef5f658c4cfa9"
   },
   "hk-support-fsd-subscriptions": {
     "url": "https://www.tesla.com/zh_hk/support/full-self-driving-subscriptions",
     "note": "香港订阅支持页：港澳台 2026-06-30 起已废除买断、转订阅，是大陆政策的先行指标",
     "status": 403,
     "engine": "playwright",
-    "fetched_at": "2026-09-23T06:13:24.300543+00:00",
+    "fetched_at": "2026-11-20T08:48:41.110758+00:00",
     "error": null,
-    "bytes": 332,
-    "sha256": "f9f10df452d1d5018f3bc84091bd4e82b8435e239ad015eb122392f7e62f8a91"
+    "bytes": 336,
+    "sha256": "4bb7eff21e1967fa55be6d22ec52d29655ca1eb20a8dfa58fc53d868ce0508d4"
   },
   "us-ai": {
     "url": "https://www.tesla.com/AI",
     "note": "Tesla AI 页：FSD/Robotaxi 技术与里程碑叙事变化",
     "status": 403,
     "engine": "playwright",
-    "fetched_at": "2026-09-23T06:13:34.826310+00:00",
+    "fetched_at": "2026-11-20T08:48:51.591944+00:00",
     "error": null,
-    "bytes": 289,
-    "sha256": "de323f33949b533e31bd177c106f68a859e4f7ddfd01beac248b69803e001da6"
+    "bytes": 293,
+    "sha256": "13953b2b59bc5fa34b47c2553b1f4417c37010a46507e6f72e2207aa79238e7b"
   }
 }
