@@ -5,17 +5,34 @@
     "signals": {
       "keywords_text": {},
       "keywords_code": {
+        "特斯拉辅助驾驶": {
+          "count": 1,
+          "source": "code",
+          "contexts": [
+            ":\"Product\",\"@id\":\"https://www.tesla.cn/fsd#product\",\"name\":\"特斯拉辅助驾驶\",\"url\":\"https://www.tesla.cn/fsd\",\"brand\":{\"@type\":\"Brand\","
+          ]
+        },
+        "FSD": {
+          "count": 3,
+          "source": "code",
+          "contexts": [
+            "\"ListItem\",\"position\":4,\"item\":{\"@id\":\"https://www.tesla.cn/fsd#product\"}},{\"@type\":\"ListItem\",\"position\":5,\"item\":{\"@id\":\"",
+            "e\":\"Tesla\"}},{\"@type\":\"Product\",\"@id\":\"https://www.tesla.cn/fsd#product\",\"name\":\"特斯拉辅助驾驶\",\"url\":\"https://www.tesla.cn/fsd\",",
+            "n/fsd#product\",\"name\":\"特斯拉辅助驾驶\",\"url\":\"https://www.tesla.cn/fsd\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Tesla\"}},{\"@type\":\"Produc"
+          ]
+        },
         "China": {
           "count": 2,
           "source": "code",
           "contexts": [
-            "\\u0003\",\"suppressDeprecationErrors\":true,\"tesla_forms\":{\"is_china_domain\":true},\"tesla_locale_existing\":{\"locale\":[\"en_au\",\"d",
+            "\\u0003\",\"suppressDeprecationErrors\":true,\"tesla_forms\":{\"is_china_domain\":true},\"tesla_locale_existing\":{\"locale\":[\"fr_ca\",\"e",
             "n\",\"nl_nl\",\"zh_tw\",\"en_gb\",\"en_us\"]},\"tesla_mega_menu\":{\"is_china_domain\":true,\"is_d8\":true,\"is_menu_visible\":true,\"mega_menu"
           ]
         }
       },
       "option_codes": [],
       "fsd_identifiers": [
+        "//www.tesla.cn/fsd",
         "FSD",
         "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
       ],
@@ -114,7 +131,7 @@
           "count": 7,
           "source": "code",
           "contexts": [
-            "\":2992,\"copy_id\":28180,\"language\":\"zh\",\"pricing_id\":144448,\"subscription_options\":{\"$APPB\":{\"code\":\"$APPB\",\"name\":\"Enhanced Autopilo",
+            "\":3007,\"copy_id\":28880,\"language\":\"zh\",\"pricing_id\":154144,\"subscription_options\":{\"$APPB\":{\"code\":\"$APPB\",\"name\":\"Enhanced Autopilo",
             "ptions\":[\"$APBS\",\"$SC04\"],\"isSaveDesignEnabled\":false,\"isFsdSubscriptionStaticUrlEnabled\":false,\"isDynamicRoundingEnabled\":false,\"is",
             "_AGREEMENT_CONSENT\"],\"showLegalConsentAfterPayX\":[],\"showFsdSubscriptionConsent\":false,\"showPrpLink\":false,\"showVAT\":true,\"showMyVAT"
           ]
@@ -244,7 +261,7 @@
           "count": 7,
           "source": "code",
           "contexts": [
-            "\":2993,\"copy_id\":28181,\"language\":\"zh\",\"pricing_id\":150147,\"subscription_options\":{\"$APPB\":{\"code\":\"$APPB\",\"name\":\"Enhanced Autopilo",
+            "\":3023,\"copy_id\":28938,\"language\":\"zh\",\"pricing_id\":154154,\"subscription_options\":{\"$APPB\":{\"code\":\"$APPB\",\"name\":\"Enhanced Autopilo",
             "ptions\":[\"$APBS\",\"$SC04\"],\"isSaveDesignEnabled\":false,\"isFsdSubscriptionStaticUrlEnabled\":false,\"isDynamicRoundingEnabled\":false,\"is",
             "_AGREEMENT_CONSENT\"],\"showLegalConsentAfterPayX\":[],\"showFsdSubscriptionConsent\":false,\"showPrpLink\":false,\"showVAT\":true,\"showMyVAT"
           ]
@@ -307,6 +324,14 @@
     "signals": {
       "keywords_text": {},
       "keywords_code": {
+        "FSD": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "aph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.tesla.cn/fsd#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"positio",
+            "tem\",\"position\":2,\"name\":\"404\",\"item\":\"https://www.tesla.cn/fsd\"}]}]} function sl_translate() {} sl_tr_start = sl_translate"
+          ]
+        },
         "China": {
           "count": 2,
           "source": "code",
@@ -318,12 +343,11 @@
       },
       "option_codes": [],
       "fsd_identifiers": [
-        "//www.tesla.cn/en_us/fsd",
         "//www.tesla.cn/fsd",
         "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
       ],
       "availability_lists": [],
-      "mentions_china": true,
+      "mentions_china": false,
       "price_mentions": []
     }
   },
@@ -368,11 +392,11 @@
       },
       "option_codes": [],
       "fsd_identifiers": [
-        "/zh_cn/fsd/safety",
+        "/fsd/safety",
         "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
       ],
       "availability_lists": [],
-      "mentions_china": true,
+      "mentions_china": false,
       "price_mentions": []
     }
   },
@@ -406,6 +430,14 @@
     "signals": {
       "keywords_text": {},
       "keywords_code": {
+        "FSD": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "@type\":\"BreadcrumbList\",\"@id\":\"https://www.tesla.cn/support/fsd#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"positio",
+            "sition\":2,\"name\":\"404\",\"item\":\"https://www.tesla.cn/support/fsd\"}]}]} function sl_translate() {} sl_tr_start = sl_translate"
+          ]
+        },
         "China": {
           "count": 2,
           "source": "code",
@@ -417,7 +449,6 @@
       },
       "option_codes": [],
       "fsd_identifiers": [
-        "//www.tesla.cn/en_us/support/fsd",
         "//www.tesla.cn/support/fsd",
         "/ar_AE/support/fsd",
         "/ar_MA/support/fsd",
@@ -450,6 +481,7 @@
         "/en_SG/support/fsd",
         "/en_TH/support/fsd",
         "/en_ZA/support/fsd",
+        "/es_AR/support/fsd",
         "/es_CL/support/fsd",
         "/es_CO/support/fsd",
         "/es_ES/support/fsd",
@@ -464,6 +496,7 @@
         "/fr_FR/support/fsd",
         "/fr_LU/support/fsd",
         "/fr_MA/support/fsd",
+        "/fsd/safety",
         "/he_IL/support/fsd",
         "/hr_HR/support/fsd",
         "/hu_HU/support/fsd",
@@ -489,11 +522,10 @@
         "/zh_HK/support/fsd",
         "/zh_MO/support/fsd",
         "/zh_TW/support/fsd",
-        "/zh_cn/fsd/safety",
         "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
       ],
       "availability_lists": [],
-      "mentions_china": true,
+      "mentions_china": false,
       "price_mentions": []
     }
   },
@@ -503,6 +535,14 @@
     "signals": {
       "keywords_text": {},
       "keywords_code": {
+        "subscription": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "List\",\"@id\":\"https://www.tesla.cn/support/full-self-driving-subscriptions#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"positi",
+            "404\",\"item\":\"https://www.tesla.cn/support/full-self-driving-subscriptions\"}]}]} function sl_translate() {} sl_tr_start = sl_translat"
+          ]
+        },
         "China": {
           "count": 2,
           "source": "code",
@@ -517,7 +557,7 @@
         "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
       ],
       "availability_lists": [],
-      "mentions_china": true,
+      "mentions_china": false,
       "price_mentions": []
     }
   },
@@ -527,6 +567,14 @@
     "signals": {
       "keywords_text": {},
       "keywords_code": {
+        "FSD": {
+          "count": 2,
+          "source": "code",
+          "contexts": [
+            "aph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.tesla.cn/fsd#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"positio",
+            "tem\",\"position\":2,\"name\":\"404\",\"item\":\"https://www.tesla.cn/fsd\"}]}]} function sl_translate() {} sl_tr_start = sl_translate"
+          ]
+        },
         "China": {
           "count": 2,
           "source": "code",
@@ -538,12 +586,11 @@
       },
       "option_codes": [],
       "fsd_identifiers": [
-        "//www.tesla.cn/en_us/fsd",
         "//www.tesla.cn/fsd",
         "O/2fjHQYKRq5deSDAOsAfsDmgPZAVmBG4E"
       ],
       "availability_lists": [],
-      "mentions_china": true,
+      "mentions_china": false,
       "price_mentions": []
     }
   },
@@ -749,7 +796,7 @@
           "count": 1,
           "source": "text",
           "contexts": [
-            "n to access \"http://www.tesla.com/support/full-self-driving-subscriptions\" on this server. Reference #18.b2f7d517.1790491535.21b0497"
+            "n to access \"http://www.tesla.com/support/full-self-driving-subscriptions\" on this server. Reference #18.4a7cb17.1795518940.776b6282"
           ]
         }
       },
@@ -770,7 +817,7 @@
           "count": 1,
           "source": "text",
           "contexts": [
-            "d You don't have permission to access \"http://www.tesla.com/fsd\" on this server. Reference #18.b2f7d517.1790491546.21b09e7d"
+            "d You don't have permission to access \"http://www.tesla.com/fsd\" on this server. Reference #18.4a7cb17.1795518951.776b914c"
           ]
         }
       },
@@ -806,7 +853,7 @@
           "count": 1,
           "source": "text",
           "contexts": [
-            "ccess \"http://www.tesla.com/zh_hk/support/full-self-driving-subscriptions\" on this server. Reference #18.b2f7d517.1790491567.21b1545"
+            "ccess \"http://www.tesla.com/zh_hk/support/full-self-driving-subscriptions\" on this server. Reference #18.590c3417.1795518972.b3d74d7"
           ]
         }
       },
